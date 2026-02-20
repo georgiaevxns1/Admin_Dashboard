@@ -64,7 +64,7 @@
     grid-auto-flow: column;
     align-items: center;
     gap: 16px;
-    margin-bottom: 20px;
+    padding: 10px 0px;
 }
 
 .dashboard-list ul {
@@ -355,3 +355,23 @@
     padding-bottom: 24px;
     box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
 }
+
+/* Animations */
+.card:hover {
+    transform: scale(1.03);
+}
+
+button:hover {
+    background-color: rgb(121, 205, 233);
+}
+
+.dashboard-list li {
+    transition: transform 0.15s ease;
+}
+
+.dashboard-list li:hover {
+    transform: translateX(4px);
+}
+
+
+
