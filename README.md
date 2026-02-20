@@ -20,3 +20,4 @@ The main challenge of this project was **to use only CSS Grid for positioning an
 ## Improvements
 
 - **Not yet responsive** — the layout currently works best on desktop screens 
+- Light mode toggle
